@@ -1,5 +1,6 @@
 site_name: FastAPI Builder
 site_description: Compile, package and secure FastAPI applications using Nuitka
+site_url: https://kasinja94.github.io/fastapi-builder-nuitka-docs/
 docs_dir: docs
 repo_url: https://github.com/kasinja94/fastapi-builder-nuitka-docs
 repo_name: fastapi-builder-nuitka-docs
