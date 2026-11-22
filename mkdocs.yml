@@ -1,0 +1,35 @@
+site_name: FastAPI Builder
+site_description: Compile, package and secure FastAPI applications using Nuitka
+docs_dir: docs
+repo_url: https://github.com/kasinja94/fastapi-builder-nuitka-docs
+repo_name: fastapi-builder-nuitka-docs
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: INSTALLATION.md
+    - Quickstart: QUICKSTART.md
+  - Building:
+    - Architecture: architecture.md
+    - Configuration: CONFIGURATION.md
+    - Usage: usage.md
+    - Platform Support: PLATFORM_SUPPORT.md
+  - FAPKG Format: FAPKG_FORMAT.md
+  - CLI Reference: CLI_REFERENCE.md
+  - Security: security.md
+  - Deployment: deployment.md
+  - Reference:
+    - Troubleshooting: TROUBLESHOOTING.md
+    - Roadmap: ROADMAP.md
+    - Changelog: changelog.md
+    - Release Notes v1.0.0: RELEASE_v1.0.0.md
